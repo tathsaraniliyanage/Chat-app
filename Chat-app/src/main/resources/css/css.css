@@ -1,0 +1,28 @@
+.send-button{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: #25D366;
+}
+.btn{
+    -fx-background-color: transpretent;
+}
+.pane-main{
+    -fx-background-color:#2C2C2C ;
+}
+.send-txt-box{
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+}
+
+.logo{
+    -fx-text-fill:#25D366 ;
+    -fx-font-weight: 800;
+    -fx-font-family: Poppins;
+    -fx-font-size: 20;
+}
+
+.user{
+    -fx-font-family: Poppins;
+    -fx-font-size: 17;
+    -fx-text-fill: white;
+}

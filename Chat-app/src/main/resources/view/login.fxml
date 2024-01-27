@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="311.0" prefWidth="600.0" style="-fx-background-color: #FDE3E3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.LoginController">
+   <children>
+      <ImageView fitHeight="318.0" fitWidth="360.0" layoutX="231.0" layoutY="13.0">
+         <image>
+            <Image url="@../assest.img/bg.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUserName" layoutX="73.0" layoutY="171.0" promptText="User Name" style="-fx-background-color: white; -fx-background-radius: 15; -fx-border-radius: 15; -fx-font-size: 20; -fx-border-color: #D95569;" />
+      <Text fill="#ff5555" layoutX="126.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40; -fx-font-weight: 800;" text="LOGIN" />
+      <Circle fill="#ffc8c8" layoutX="41.0" layoutY="14.0" radius="100.0" stroke="#9c575700" strokeType="INSIDE" />
+      <Circle fill="#ffc8c8" layoutX="19.0" layoutY="270.0" radius="54.0" stroke="#9c575700" strokeType="INSIDE" />
+      <Button layoutX="73.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="34.0" prefWidth="223.0" style="-fx-font-size: 15; -fx-font-weight: 800; -fx-background-color: #D95569; -fx-background-radius: 10;" text="Log in" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<AnchorPane prefHeight="213.0" prefWidth="279.0" style="-fx-background-color: #2F2F2F; -fx-background-radius: 8; -fx-border-color: 8;" stylesheets="@../css/css.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.controller.EmojiComponentController">
+   <children>
+      <JFXButton layoutX="14.0" layoutY="14.0" onAction="#emoji1" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0010-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="79.0" layoutY="14.0" onAction="#emoji2" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0011-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="143.0" layoutY="14.0" onAction="#emoji3" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0009-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="15.0" layoutY="81.0" onAction="#emoji5" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0013-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="80.0" layoutY="81.0" onAction="#emoji6" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0012-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="144.0" layoutY="81.0" onAction="#emoji7" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0014-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="16.0" layoutY="146.0" onAction="#emoji9" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0016-removebg-preview%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="81.0" layoutY="146.0" onAction="#emoji10" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0017-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="145.0" layoutY="146.0" onAction="#emoji11" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0019-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="208.0" layoutY="14.0" onAction="#emoji4" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0008-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="209.0" layoutY="81.0" onAction="#emoji8" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0015-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="210.0" layoutY="146.0" onAction="#emoji12" prefHeight="56.0" prefWidth="56.0" styleClass="btn">
+         <graphic>
+            <GridPane prefHeight="30.0" prefWidth="37.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ImageView fitHeight="87.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest.img/Emoji/IMG-20230611-WA0018-removebg-preview%20(1).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </graphic>
+      </JFXButton>
+   </children>
+   <effect>
+      <DropShadow color="#d3d0d04d" radius="9.26" width="18.04" />
+   </effect>
+</AnchorPane>
